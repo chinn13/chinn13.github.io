@@ -1,0 +1,63 @@
+.user {
+    width: 100%;
+    height: auto;
+    /*background-color: pink;*/
+    padding: 5px;
+}
+.user h2{
+    border-bottom: #eeeeee 2px solid;
+    width: 95%;
+    margin: 10px auto;
+
+}
+.userInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    border-bottom: #EEEEEE 2px solid;
+}
+.user_id{
+    width: 20%;
+}
+.username,.contact{
+    width: 25%;
+}
+.email{
+    width: 30%;
+}
+.address{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.address button{
+    width: 30px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+.user h2{
+    position: relative;
+}
+.addstaff{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 110px;
+    height: 43px;
+    background-color: greenyellow;
+}
+.addstaff button{
+    width: 100%;
+    height: 100%;
+    background-color: #577ABD;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+}

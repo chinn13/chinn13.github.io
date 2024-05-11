@@ -1,0 +1,53 @@
+.order-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 400px;
+    padding: 20px 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.order-list .img {
+    width: 30%;
+    height: 280px;
+    padding: 0 10px;
+}
+
+.order-list .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.order-list .info{
+    width: 60%;
+    padding: 20px;
+    border-left: #dddddd 2px solid;
+    position: relative;
+}
+.order-list .info p{
+    padding: 3px 10px;
+}
+.order-list .info .id{
+    padding: 10px 20px;
+}
+.order-list .info input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: #cccccc 2px solid;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.order-list .info input:focus{
+    outline: none;
+}
+.update{
+    position: absolute;
+    top: 5px;
+    display: block;
+    padding: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: black;
+}

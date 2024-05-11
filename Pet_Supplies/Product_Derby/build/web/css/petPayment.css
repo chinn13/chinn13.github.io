@@ -1,0 +1,218 @@
+.payment {
+    width: 1000px;
+    margin: auto;
+    min-height: 550px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+.paymentType {
+    background-color: #f4f4f4;
+    border: #767F84 1.5px solid;
+    border-bottom: none;
+    margin-bottom: 2%;
+}
+
+.type {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    border-bottom: #767F84 1.5px solid;
+}
+
+.type img {
+    width: 30%;
+    height: auto;
+    object-fit: fill;
+}
+
+.type_list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.type i {
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+input[type=radio] {
+    margin: 20px;
+}
+
+.btmLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 2%;
+    bottom: 4%;
+    padding: 10px 0;
+    border-top: 2px solid #767F84;
+}
+.btmLine p{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.btmLine span{
+    font-size: 14px;
+}
+
+.placeorder {
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #577ABD;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    width: 50%;
+    height: 100%;
+    border-right: #eeeeee 3px solid;
+    padding: 10px 20px;
+}
+
+.cardnumber {
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.cardnumber input {
+    width: 99%;
+    padding: 5px;
+}
+
+.card .card_list {
+    width: 50%;
+    padding: 5px;
+}
+
+.card .card_list input {
+    width: 98%;
+    margin: 5px 0;
+}
+
+.cardnumber input,
+.card .card_list input {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.cardnumber input:focus,
+.card .card_list input:focus {
+    outline: none;
+}
+
+.card_ul {
+    display: flex;
+    padding: 5px 0;
+}
+
+.cashondelivery {
+    width: 100%;
+    display: flex;
+}
+
+.delivery {
+    padding: 10px 15px;
+    border-right: #eeeeee 3px solid;
+    width: 60%;
+}
+
+.delivery h2 {
+    border-bottom: #767F84 2px solid;
+    padding: 10px 0;
+}
+
+.deliveryInfo {
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.deliveryImage {
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    /* background-image: url("delivery2.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover; */
+}
+
+#cod,
+#card,
+#online {
+    display: none;
+}
+
+.online{
+    min-height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.bank {
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+    color:#767F84;
+}
+
+.bank option {
+    padding: 5px 10px;
+}
+.bank:focus{
+    outline: none;
+}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    opacity: .5;
+    z-index: 1;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #009578;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0turn)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}

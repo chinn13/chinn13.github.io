@@ -1,0 +1,162 @@
+.orderDetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.orderInfo {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+    border-right: #eeeeee solid 2px;
+}
+
+.shipping {
+    width: 30%;
+    min-height: 500px;
+    padding: 20px 40px;
+}
+
+.orderTitle {
+    padding: 5px;
+    line-height: 10px;
+    text-align: left;
+}
+h3{
+    padding: 20px 5px 10px 5px;
+    margin-bottom: 10px;
+    border-bottom: #6f6e6c 3px solid;
+}
+
+.orderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: #eeeeee solid 2px;
+    padding: 10px;
+    font-size: 12px;
+}
+.orderItem #product {
+    width: 55%;
+}
+
+.orderItem #price {
+    width: 15%;
+    text-align: center;
+}
+
+.orderItem #qty {
+    width: 10%;
+    text-align: center;
+}
+
+.orderItem #amount {
+    width: 20%;
+    text-align: center;
+}
+
+.orderItem div {
+    padding: 5px;
+}
+#amount input{
+    width: 90px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+#amount input:focus{
+    outline: none;
+}
+.totalAmount{
+    padding: 5px 10px;
+}
+
+.ordeStatus{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+.next {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    /*background-color: greenyellow;*/
+    height: 8px;
+    width: 33%;
+    z-index: 1;
+}
+.status_bg{
+    position: absolute;
+    top:46px;
+    background-color: #f4f4f4;
+    height: 8px;
+    width: 450px;
+}
+
+.paid,
+.packing,
+.ship,
+.delivered {
+    position: absolute;
+    top: 37.5px;
+    width: 25px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    z-index: 2;
+}
+
+.paid {
+    left: 20px;
+    /*background-color: greenyellow;*/
+}
+
+.packing {
+    left: 163px;
+
+}
+
+.ship {
+    left: 310px;
+}
+
+.delivered {
+    left: 458px;
+}
+#paid,
+#packing,
+#ship,
+#delivered {
+    position: absolute;
+    top: 75px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+}
+#paid {
+    left: 15px;
+}
+
+#packing {
+    left: 155px;
+}
+
+#ship {
+    left: 295px;
+}
+
+#delivered {
+    left: 440px;
+}

@@ -1,0 +1,73 @@
+.information {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.information h1 {
+    font-family: sans-serif;
+}
+
+.information label {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: rgb(215, 244, 255);
+    column-width: 640px;
+    height: 100%;
+}
+
+.login h1 {
+    background-color: skyblue;
+}
+
+.login input {
+    border-color: skyblue;
+}
+
+.login .button {
+    background-color: rgb(117, 216, 255);
+    font-weight: bold;
+    font-size: large;
+    height: 50px;
+}
+
+.register {
+    background-color: rgb(255, 225, 230);
+    column-width: 640px;
+}
+
+.register h1 {
+    background-color: pink;
+}
+
+.register input {
+    border-color: pink;
+}
+
+.register .button {
+    background-color: rgb(253, 173, 186);
+    font-weight: bold;
+    font-size: large;
+    height: 50px;
+}
+
+.detail {
+    margin: 10px;
+}
+
+.detail input {
+    padding-left: 10px;
+}

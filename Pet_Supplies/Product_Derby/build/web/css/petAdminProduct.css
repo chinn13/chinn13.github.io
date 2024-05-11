@@ -1,0 +1,101 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a{
+    color: white;
+    display: block;
+}
+.top button{
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #8B674F;
+}
+
+.adminItem :nth-child(1) {
+    border-radius: 10px 10px 0 0;
+}
+
+.adminItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.adminItem a {
+    color: black;
+}
+
+.adminItem input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+}
+.adminItem input:focus{
+    outline: none;
+}
+
+#id,
+#name,
+#qty,
+#price,
+#description,
+#action,
+#status{
+    padding: 5px;
+    height: auto;
+    border-bottom: #eeeeee solid 2px;
+}
+
+.adminItem {
+    background-color: white;
+}
+#name input{
+    text-align: left;
+}
+
+#id {
+    width: 5%;
+}
+
+#name {
+    width: 40%;
+}
+
+#qty {
+    width: 7%;
+}
+
+#price {
+    width: 15%;
+}
+
+#action {
+    width: 13%;
+}
+#status{
+    width: 15%;
+}
+
+#action i {
+    padding: 0 5px;
+}
+
+.adminClose{
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    height: 40px;
+    background-color: #eeeeee;
+}
+.submit{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}

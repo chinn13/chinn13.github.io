@@ -1,0 +1,73 @@
+.adminInfo {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.left {
+    width: 40%;
+    border-right: #eeeeee solid 2px;
+    padding: 0 30px;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 20px 0;
+}
+
+.right {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+
+.right th,
+.right td {
+    padding: 10px;
+}
+
+.right th {
+    width: 30%;
+    text-align: left;
+}
+
+.right td {
+    width: 70%;
+}
+
+.right td input,.right td textarea, .right td select {
+    width: 100%;
+    padding: 3px 10px;
+}
+.right td input, .right td select {
+    height: 30px;
+}
+.right td input:focus,.right td textarea:focus, .right td select:focus{
+    outline: none;
+}
+.update, .submit{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;    
+    border-radius: 3px;
+    color:white;
+    border: none;
+}
+.left{
+    text-align: left;
+}
+.upload{
+    padding: 10px 0;
+}
+.left .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #8B674F;
+}
+.update{
+    width: 100%;
+    height: 50px;
+    background-color: #577ABD;
+}

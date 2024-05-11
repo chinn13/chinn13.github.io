@@ -1,0 +1,32 @@
+.user {
+    width: 100%;
+    height: auto;
+    /*background-color: pink;*/
+    padding: 5px;
+}
+.user h2{
+    border-bottom: #eeeeee 2px solid;
+    width: 95%;
+    margin: 10px auto;
+
+}
+.userInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    border-bottom: #EEEEEE 2px solid;
+}
+.user_id{
+    width: 10%;
+}
+.username,.contact{
+    width: 20%;
+}
+.email{
+    width: 25%;
+}
+.address{
+    width: 35%;
+}

@@ -1,0 +1,24 @@
+
+.showing{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+.cancel {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.cancel h1{
+    padding: 10px 0;
+}
+.cancel p {
+    padding: 5px 0;
+}

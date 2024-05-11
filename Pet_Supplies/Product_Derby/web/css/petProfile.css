@@ -1,0 +1,66 @@
+.profileDisplay {
+    margin: 10px;
+    background-color: rgb(222, 245, 254);
+    width: 98%;
+}
+
+.profileDisplay table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileDisplay h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(169, 230, 254);
+}
+
+.profileDisplay input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(169, 230, 254);
+}
+
+.profileDisplay #email, .profileDisplay #custID, .profileDisplay #staffID {
+    background-color: rgb(176, 251, 251);
+}
+
+.profileDisplay td {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profileDisplay input {
+    font-family: cursive;
+    color: #577ABD;
+    font-weight: bold;
+}
+
+.profileDisplay td {
+    padding: 5px 10px;
+    color: #767F84;
+}
+
+.profileDisplay .edit {
+    align-items: center;
+    text-align: center;
+}
+
+.profileDisplay .button {
+    background-color: rgb(169, 230, 254);
+    align-items: center;
+}
+
+.profileDisplay input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profileDisplay input:focus{
+    outline: none;
+}
+
+.profileDisplay #address {
+    width: 600px;
+}
